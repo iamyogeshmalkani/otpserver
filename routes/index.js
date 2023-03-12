@@ -27,7 +27,7 @@ async function saveMessage(data) {
 }
 Router.post("/sendsms/:number", async (req, res) => {
   const accountSid = "AC928ff975ea10616aa05af2ffeb5ad00d";
-  const authToken = "fe6e4ded50c9863e72b3641835657a79";
+  const authToken = "7d06cb753421fde4cb46e7f6fc1594a4";
   const client = require("twilio")(accountSid, authToken);
   const data = {
     from: "+15676230708",
